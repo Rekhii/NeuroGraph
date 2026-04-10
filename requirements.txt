@@ -1,0 +1,50 @@
+# NeuroGraph — dependencies
+# Install: pip install -r requirements.txt
+#
+# ALSO REQUIRED (not pip packages):
+#   Ollama — install from https://ollama.com
+#     curl -fsSL https://ollama.com/install.sh | sh
+#     ollama pull qwen3:8b
+#     ollama pull nomic-embed-text
+#
+# OR (if no Ollama):
+#   Groq free API key from https://console.groq.com
+#   Set in .env: LLM_PROVIDER=groq, GROQ_API_KEY=your_key
+
+# PDF processing
+pypdf>=4.0.0
+
+# Text chunking
+langchain-text-splitters>=0.2.0
+langchain-core>=0.2.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Keyword search (BM25)
+rank-bm25>=0.2.2
+
+# HTTP client (talks to Ollama and Groq APIs)
+httpx>=0.27.0
+
+# Embeddings and cross-encoder reranking (runs on CPU, no GPU needed)
+sentence-transformers>=3.0.0
+
+# LangChain LLM providers (for LangGraph integration in Phase 3)
+langchain-ollama>=0.1.0
+langchain-groq>=0.1.0
+
+# API server
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
+
+# Demo UI
+streamlit>=1.36.0
+
+# Evaluation
+ragas>=0.1.0
+datasets>=2.0.0
+
+# Observability
+langsmith>=0.1.0
