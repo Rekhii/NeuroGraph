@@ -31,7 +31,7 @@ Drop a 400-page textbook on theoretical neuroscience, a dense machine learning p
 > ![NeuroGraph Demo](docs/ScreenRecording2026-04-10124303-ezgif.com-video-to-gif-converter.gif)
 
 
-> Watch Full Demo -> https://youtu.be/3XNEjA5h82M
+> Watch Full Demo ->(https://youtu.be/pS6bSmE6Znk)
 ---
 
 ## Architecture
