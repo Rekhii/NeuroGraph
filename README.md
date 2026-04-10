@@ -4,7 +4,7 @@
 
 Upload complex research papers. Ask questions. Get detailed, cited answers with proper LaTeX mathematics, term-by-term equation breakdowns, and full derivations — grounded entirely in your uploaded documents.
 
-![System Architecture](docs/architecture.png)
+![System Architecture](docs/System%20Architecture.png)
 
 ---
 
